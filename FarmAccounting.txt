@@ -1,0 +1,13 @@
+Art: Schwein
+Name: franz
+StallStatus: 0
+KaufPreis: 224
+Art: Schwein
+Name: joshi
+StallStatus: 0
+KaufPreis: 340
+Art: Schwein
+Name: klara
+StallStatus: 0
+KaufPreis: 300
+
