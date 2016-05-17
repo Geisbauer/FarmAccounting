@@ -27,7 +27,7 @@ int main(int argc, char* argv[])
 		cout << "13 ... Schwein loeschen." << endl;
 		cout << endl;
 		cout << endl;
-		//cout << endl;
+		cout << endl;
 		cout << endl;
 		//cout << endl;
 		cout << endl;
