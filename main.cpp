@@ -22,9 +22,7 @@ int main(int argc, char* argv[])
 		cout << " 1 ... Datenbank einlesen." << endl;
 		cout << " 2 ... Datenbank speichern." << endl;
 		cout << " 3 ... Bestand auflisten." << endl;
-		cout << endl;
-
-		//cout << "11 ... Schwein einstellen." << endl;
+		cout << "11 ... Schwein einstellen." << endl;
 		cout << "12 ... Schwein verkaufen." << endl;
 		cout << "13 ... Schwein loeschen." << endl;
 		/*
