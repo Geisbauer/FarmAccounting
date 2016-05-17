@@ -15,9 +15,9 @@ int main(int argc, char* argv[])
 
 	while(auswahl != 0)
 	{
-		cout << endl;
-		cout << "      Bitte waehle aus " << endl;
-		cout << "-----------------------------" << endl;
+		cout << endl << endl;
+		cout << "   ... Bitte waehle aus ..." << endl;
+		cout << "_____________________________" << endl;
 		cout << " 0 ... Programm beenden." << endl;
 		cout << " 1 ... Datenbank einlesen." << endl;
 		cout << " 2 ... Datenbank speichern." << endl;
@@ -39,20 +39,20 @@ int main(int argc, char* argv[])
 		{
 			case 1:
 			{
-				cout << "\n1 ... Datenbank einlesen" << endl;
+				cout << " 1 ... Datenbank einlesen" << endl;
 				erg = einlesenVonPlatte(meineTiere, "FarmAccounting.txt");
 				break;
 			}
 			case 2:
 			{
-				cout << "\n2 ... Datenbank speichern" << endl;
+				cout << " 2 ... Datenbank speichern" << endl;
 				erg = sichernAufPlatte(meineTiere, "FarmAccounting.txt");
 				break;
 			}
 		case 3:
 			{
-				cout << "\n3 ... Bestand auflisten" << endl;
-				cout << " Anzahl der Tiere: " << meineTiere.size() << endl;
+				cout << " 3 ... Bestand auflisten" << endl;
+				cout << "Anzahl der Tiere: " << meineTiere.size() << endl;
 				for_each(meineTiere.begin(),meineTiere.end(),&Tier::Print);
 				break;
 			}
@@ -83,10 +83,10 @@ int main(int argc, char* argv[])
 
 		if(auswahl != 0 && erg == -1)
 		{
-			cout << "\n Transaktion wurde nicht durchgefuehrt wegen fehlerhafter Eingabe.\n Versuche es nocheinmal ...";
+			cout << " Transaktion wurde nicht durchgefuehrt wegen fehlerhafter Eingabe.\nVersuche es nocheinmal ...";
 		}
 	}
-	cout << "\n  Das Programm wird beendet!" << endl;
+	cout << " Das Programm wird beendet!" << endl;
 	return 0;
 }
 
