@@ -20,7 +20,6 @@ private:
 protected:
 	string art;
 	string name;
-	//int t, m, j;char p1, p2;
 	stallStatus stallStatus;
 	float kaufPreis;
 	float verkaufPreis;

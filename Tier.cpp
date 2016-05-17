@@ -48,10 +48,11 @@ int Tier::holeKaufPreis(float& kaufPreis) const
 
 void Tier::Print(Tier* tier)
 {
-		cout << " Art: " << tier->art  << " Name: " << tier->name << endl;
-		cout << " StallStatus: " << tier->stallStatus << endl;
-		if (!isnan(tier->kaufPreis)) { cout << " KaufPreis: " << tier->kaufPreis << endl;};
-		if (!isnan(tier->verkaufPreis)) { cout << " VerkaufPreis: " << tier->verkaufPreis << endl; };
+		cout << "Art: " << tier->art << endl;
+		cout << "Name: " << tier->name << endl;
+		cout << "StallStatus: " << tier->stallStatus << endl;
+		if (!isnan(tier->kaufPreis)) { cout << "KaufPreis: " << tier->kaufPreis << endl;};
+		if (!isnan(tier->verkaufPreis)) { cout << "VerkaufPreis: " << tier->verkaufPreis << endl; };
 }
 
 bool Tier::operator()(const Tier* t) const
@@ -73,7 +74,7 @@ Schwein::~Schwein()
 
 int Schwein::schweinEinstellen(vector<Tier*>& meineTiere)
 {
-	cout << "\nSchwein einstellen" << endl;
+	cout << "Schwein einstellen" << endl;
 	this->art = "Schwein";
 	cout << "Name?" << endl;
 	cin >> this->name;
@@ -89,7 +90,7 @@ int Schwein::schweinEinstellen(vector<Tier*>& meineTiere)
 int Schwein::schweinVerkaufen(vector<Tier*>& meineTiere)
 {
 	float kaufPreis, verkaufPreis;
-	cout << "\nSchwein verkaufen" << endl;
+	cout << "Schwein einstellen" << endl;
 	cout << "Name?" << endl;
 	cin >> this->name;
 
