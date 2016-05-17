@@ -1,5 +1,5 @@
 1. Zielstimmungen:
-FarmAcoounting (im folgenden kurz "FA" bezeichnet) ist ein Computerprogramm für die Verwaltung des Tierbestandes eines Bauernhofs.
+FarmAccounting (im folgenden kurz "FA" bezeichnet) ist ein Computerprogramm für die Verwaltung des Tierbestandes eines Bauernhofs.
 FA ist nicht dafür geeignet, die Ansprüche der Grundsätze ordnungsmäßiger Buchführung (GoB) zu erfüllen. 
 
 2. Einsatz:
@@ -15,13 +15,18 @@ Es obliegt dem Bauern, eine Backup-Strategie für diese Textdatei zu implementier
 FA bietet folgende Funktionalität:
 Für den Schweinebauern:
 	Ein Schwein kaufen mit Kaufdatum und Kaufpreis.
-	Schwein verkaufen mit Verkaufspreis udn Verkaufsdatum.
+	Ein Schwein verkaufen mit Verkaufspreis und Verkaufsdatum.
+	Es können bis zu 640 Schweine verwaltet werden.
 Für den Rinderbauern:
-	...
+	Ein Rind kaufen mit Kaufdatum und Kaufpreis.
+	Ein Rind verkaufen mit Verkaufspreis und Verkaufsdatum.
+	Die tägliche Milchleistung eines Rindes eingeben; für Kühe können bis zu 640 aufeinanderfolgende Tage eingegeben werden.
 Für den Hühnerbauern:
-	...
+	Die Anzahl der Hühner in der Hühnerschar tagesaktuell verwalten.
+	Die Anzahl der gelegten und gefunden Hühnereier tagesaktuell verwalten. 
 Für alle Bauern:
-	...
+	Speichern aller seit dem letzten Programmstart getätigten Änderungen ("Transaktionen")  
+	Einfache statistische Abfragen.
 
 5. Daten:
 Alle Daten müssen vom Bauern eingeben werden.
@@ -29,8 +34,10 @@ Alle Daten müssen vom Bauern eingeben werden.
 6. Leistungen:
 Das ausführbare Computerprogramme ("FarmAcounting.exe") wird mit Diskette ausgeliefert und muss vom Bauern auf den Computer kopiert werden.
 Eine Installation ist nicht notwendig.
-Beim Kauf von FA ist ein einjähriger Erneuerungsdienst miteingeschlossen. Die Erneuerungen müssen angefordert werden.
+Beim Kauf von FA ist ein einjähriger Erneuerungsdienst miteingeschlossen.
+Der Versand der Erneuerungen müssen angefordert werden.
 Support (vorort oder per Telefon, Telefax, Telex) kann gesondert vereinbart werden.
+Leistungen betreffend Hardware 
 
 7. Benutzeroberfläche:
 FA wird in einer zeichenorientierten Benutzerschnittstelle (ein Terminal wie z.B. DEC VT100 oder einer entsprechenden Emulation) bedient.
@@ -39,12 +46,16 @@ FA wird in einer zeichenorientierten Benutzerschnittstelle (ein Terminal wie z.B
 Das Nutzungserlebnis von FA wird laufend verbessert.
 
 9. Entwicklungsumgebung:
-...
+C++ in der Version "International Standard ISO/IEC 14882:2014(E) Programming Language C++".
+Microsoft Visual Studio 2015
 
 10. Ergänzungen:
-...
+Diese Seite wurde absichtlich leergelassen.
 
 11. Glossar:
-...
+Hardware: Der angreifbare Bestandteil eines Computersystems. 
+Statistik: Die Kunst, einfache Sachverhalte kompliziert zu erklären, sodass sie niemand mehr versteht.
+Software: Der nicht-angreifbare Bestandteil eines Computersystems.
+Transaktion: Eine Änderung des Tierbestandes, die durch geschäftliche oder natürliche Vorgänge zustanden kommen. 
 
 
