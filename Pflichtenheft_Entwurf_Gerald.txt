@@ -3,44 +3,44 @@ FarmAccounting (im folgenden kurz "FA" bezeichnet) ist ein Computerprogramm fuer
 FA ist nicht dafuer geeignet, die Ansprueche der Grundsaetze ordnungsmaeszer Buchfuehrung (GoB) zu erfuellen.
 
 2. Einsatz:
-FA ist für den einzelnen Benutzer konzipiert, im folgenden "Landwirt" genannt.
+FA ist fuer den einzelnen Benutzer konzipiert, im folgenden "Landwirt" genannt.
 Der Landwirt kann mit einer Installation von FA nur einen Tierbestand verwalten.
 
 3. Umgebung:
 FA kann auf einem IBM-kompatiblen PC mit dem Microsoft Windows Betriebssystem ab Version Windows 7 installiert werden. 
 Der Datenbestand von FA wird in eine ASCII-konforme Textdatei gespeichert und wird nach dem Start des Programms aus dieser ausgelesen.
-Es obliegt dem Landwirten, eine Backup-Strategie für diese Textdatei zu implementieren.
+Es obliegt dem Landwirt, eine Backup-Strategie fuer diese Textdatei zu implementieren.
 
 4. Funktionalität:
 FA bietet folgende Funktionalität:
-Für den Schweinebauern:
+Fuer den Schweinebauern:
 	Ein Schwein kaufen mit Kaufdatum und Kaufpreis.
 	Ein Schwein verkaufen mit Verkaufspreis und Verkaufsdatum.
-	Es können bis zu 640 Schweine verwaltet werden.
-Für den Rinderbauern:
+	Es koennen bis zu 640 Schweine verwaltet werden.
+Fuer den Rinderbauern:
 	Ein Rind kaufen mit Kaufdatum und Kaufpreis.
 	Ein Rind verkaufen mit Verkaufspreis und Verkaufsdatum.
 	Die tägliche Milchleistung eines Rindes eingeben; für Kühe können bis zu 640 aufeinanderfolgende Tage eingegeben werden.
-Für den Hühnerbauern:
-	Die Anzahl der Hühner in der Hühnerschar tagesaktuell verwalten.
-	Die Anzahl der gelegten und gefunden Hühnereier tagesaktuell verwalten. 
-Für alle Bauern:
-	Speichern aller seit dem letzten Programmstart getätigten Änderungen ("Transaktionen")  
+Fuer den Huehnerbauern:
+	Die Anzahl der Huehner in der Huehnerschar tagesaktuell verwalten.
+	Die Anzahl der gelegten und gefunden Huehnereier tagesaktuell verwalten. 
+Feur alle Bauern:
+	Speichern aller seit dem letzten Programmstart getaetigten Aenderungen ("Transaktionen").  
 	Einfache statistische Abfragen.
 
 5. Daten:
-Alle Daten müssen vom Landwirt eingeben werden.
+Alle Daten muessen vom Landwirt eingeben werden.
 
 6. Leistungen:
-Das ausführbare Computerprogramme ("FarmAcounting.exe") wird mit Diskette ausgeliefert und muss vom Landwirt auf den Computer kopiert werden.
+Das ausfuehrbare Computerprogramme ("FarmAcounting.exe") wird mit Diskette ausgeliefert und muss vom Landwirt auf den Computer kopiert werden.
 Eine Installation ist nicht notwendig.
-Beim Kauf von FA ist ein einjähriger Erneuerungsdienst miteingeschlossen. Die Erneuerungen müssen angefordert werden.
+Beim Kauf von FA ist ein einjaehriger Erneuerungsdienst miteingeschlossen. Die Erneuerungen muessen angefordert werden.
 Support (vorort oder per Telefon, Telefax, Telex) kann gesondert vereinbart werden.
 
-7. Benutzeroberfläche:
+7. Benutzeroberflaeche:
 FA wird in einer zeichenorientierten Benutzerschnittstelle (ein Terminal wie z.B. DEC VT100 oder einer entsprechenden Emulation) bedient.
 
-8. Qualität:
+8. Qualitaet:
 Das Nutzungserlebnis von FA wird laufend verbessert.
 
 9. Entwicklungsumgebung:
@@ -54,6 +54,6 @@ Diese Seite wurde absichtlich leergelassen.
 Hardware: Der angreifbare Bestandteil eines Computersystems. 
 Statistik: Die Kunst, einfache Sachverhalte kompliziert zu erklären, sodass sie niemand mehr versteht.
 Software: Der nicht-angreifbare Bestandteil eines Computersystems.
-Transaktion: Eine Änderung des Tierbestandes, die durch geschäftliche oder natürliche Vorgänge zustanden kommen. 
+Transaktion: Eine Aenderung des Tierbestandes, die durch geschaeftliche oder natuerliche Vorgaenge zustanden kommen. 
 
 
