@@ -15,7 +15,7 @@ int sichernAufPlatte(vector<Tier*>&meineTiere, string dateiname)
 {
 	try
 	{
-		ofstream file(dateiname);
+		ofstream file(dateiname.c_str());
 		streambuf *coutbuf = cout.rdbuf();
 		cout.rdbuf(file.rdbuf());
 
@@ -36,7 +36,7 @@ int einlesenVonPlatte(vector<Tier*>&meineTiere, string dateiname)
 {
 	string s;
 	stringstream strStream;
-	ifstream file(dateiname);
+	ifstream file(dateiname.c_str());
 	strStream << file.rdbuf();
 	s = strStream.str();
 	cout << s << endl;

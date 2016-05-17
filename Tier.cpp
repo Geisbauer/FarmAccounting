@@ -121,8 +121,9 @@ int Schwein::schweinLoeschen(vector<Tier*>& meineTiere)
 	cout << "Name?" << endl;
 	cin >> this->name;
 	
-	vector<Tier*>::iterator meineTiereIter;
-	meineTiereIter = find_if(meineTiere.begin(),meineTiere.end(),(*this));
+	//vector<Tier*>::iterator meineTiereIter;
+	//meineTiereIter = find_if(meineTiere.begin(),meineTiere.end(),(*this));
+	auto meineTiereIter = find_if(meineTiere.begin(),meineTiere.end(),(*this));
 
 	if(meineTiereIter != meineTiere.end())
 	{
