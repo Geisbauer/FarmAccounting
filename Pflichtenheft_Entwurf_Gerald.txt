@@ -1,47 +1,47 @@
 1. Zielstimmungen:
-FarmAcoounting (im folgenden kurz "FA" bezeichnet) ist ein Computerprogramm für die Verwaltung des Tierbestandes eines Bauernhofs.
-FA ist nicht dafür geeignet, die Ansprüche der Grundsätze ordnungsmäßiger Buchführung (GoB) zu erfüllen. 
+FarmAcoounting (im folgenden kurz "FA" bezeichnet) ist ein Computerprogramm fÃ¼r die Verwaltung des Tierbestandes eines Bauernhofs.
+FA ist nicht dafÃ¼r geeignet, die AnsprÃ¼che der GrundsÃ¤tze ordnungsmÃ¤ÃŸiger BuchfÃ¼hrung (GoB) zu erfÃ¼llen. 
 
 2. Einsatz:
-FA ist für den einzelnen Benutzer konzipiert, im folgenden "Bauer" genannt.
-Der Bauer kann mit einer Installation von FA nur einen Tierbestand verwalten.
+FA ist fÃ¼r den einzelnen Benutzer konzipiert, im folgenden "Landwirt" genannt.
+Der Landwirt kann mit einer Installation von FA nur einen Tierbestand verwalten.
 
 3. Umgebung:
 FA kann auf einem IBM-kompatiblen PC mit dem Microsoft Windows Betriebssystem ab Version Windows 7 installiert werden. 
 Der Datenbestand von FA wird in eine ASCII-konforme Textdatei gespeichert und wird nach dem Start des Programms aus dieser ausgelesen.
-Es obliegt dem Bauern, eine Backup-Strategie für diese Textdatei zu implementieren.
+Es obliegt dem Landwirten, eine Backup-Strategie fÃ¼r diese Textdatei zu implementieren.
 
-4. Funktionalität:
-FA bietet folgende Funktionalität:
-Für den Schweinebauern:
+4. FunktionalitÃ¤t:
+FA bietet folgende FunktionalitÃ¤t:
+FÃ¼r den Schweinebauern:
 	Ein Schwein kaufen mit Kaufdatum und Kaufpreis.
 	Schwein verkaufen mit Verkaufspreis udn Verkaufsdatum.
-Für den Rinderbauern:
+FÃ¼r den Rinderbauern:
 	...
-Für den Hühnerbauern:
+FÃ¼r den HÃ¼hnerbauern:
 	...
-Für alle Bauern:
+FÃ¼r alle Bauern:
 	...
 
 5. Daten:
-Alle Daten müssen vom Bauern eingeben werden.
+Alle Daten mÃ¼ssen vom Landwirt eingeben werden.
 
 6. Leistungen:
-Das ausführbare Computerprogramme ("FarmAcounting.exe") wird mit Diskette ausgeliefert und muss vom Bauern auf den Computer kopiert werden.
+Das ausfÃ¼hrbare Computerprogramme ("FarmAcounting.exe") wird mit Diskette ausgeliefert und muss vom Landwirt auf den Computer kopiert werden.
 Eine Installation ist nicht notwendig.
-Beim Kauf von FA ist ein einjähriger Erneuerungsdienst miteingeschlossen. Die Erneuerungen müssen angefordert werden.
-Support (vorort oder per Telefon, Telefax, Telex) kann gesondert vereinbart werden.
+Beim Kauf von FA ist ein einjÃ¤hriger Erneuerungsdienst miteingeschlossen. Die Erneuerungen mÃ¼ssen angefordert werden.
+Support (vorort oder per Telefon, Telefax, Telex und E-Mail) kann gesondert vereinbart werden.
 
-7. Benutzeroberfläche:
+7. BenutzeroberflÃ¤che:
 FA wird in einer zeichenorientierten Benutzerschnittstelle (ein Terminal wie z.B. DEC VT100 oder einer entsprechenden Emulation) bedient.
 
-8. Qualität:
+8. QualitÃ¤t:
 Das Nutzungserlebnis von FA wird laufend verbessert.
 
 9. Entwicklungsumgebung:
 ...
 
-10. Ergänzungen:
+10. ErgÃ¤nzungen:
 ...
 
 11. Glossar:
