@@ -29,8 +29,6 @@ int main(int argc, char* argv[])
 		cout << endl;
 		cout << endl;
 		cout << endl;
-		//cout << endl;
-		cout << endl;
 		cout << endl;
 		/*
 		cout << "21 ... Kuh einstellen." << endl;
