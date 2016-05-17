@@ -15,7 +15,7 @@ int main(int argc, char* argv[])
 
 	while(auswahl != 0)
 	{
-		cout << endl;
+		cout << endl << endl;
 		cout << "Bitte waehle aus ..." << endl;
 		cout << "0 ... Programm beenden." << endl;
 		cout << "1 ... Datenbank einlesen." << endl;
