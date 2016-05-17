@@ -1,0 +1,75 @@
+1. Zielstimmungen:
+FarmAccounting-x (im folgenden kurz "FA-x" bezeichnet) ist ein Computerprogramm fuer die Verwaltung des Tierbestandes eines Bauernhof.
+FA-x ist nicht dafuer geeignet, die Ansprueche der Grundsaetze ordnungsmaeszer Buchfuehrung (GoB) zu erfuellen.
+
+2. Einsatz:
+FA-x ist fuer den einzelnen Benutzer konzipiert, im folgenden "Landwirt" genannt.
+Der Landwirt kann mit einer Lizenz von FA-x nur einen Schweinebestand verwalten.
+Fuer andere Tierarten müssen weitere Lizenzen von FA-x erworben werden
+
+3. Umgebung:
+FA-x kann auf einem IBM-kompatiblen PC mit dem Microsoft Windows Betriebssystem ab Version Windows 7 betrieben werden. 
+Der Datenbestand von FA-x wird in eine Textdatei gespeichert und wird nach dem Start des Programms aus dieser ausgelesen.
+Es obliegt dem Landwirt, eine Backup-Strategie fuer diese Textdatei zu implementieren.
+
+4. Funktionalität:
+FA-x ist in folgenden Lizenzen erhaeltlich:
+
+FA-P__Fuer den Schweinebauern:
+------------------------------
+	Ein Schwein kaufen mit Kaufdatum und Kaufpreis.
+	Ein Schwein verkaufen mit Verkaufspreis und Verkaufsdatum.
+	Es koennen bis zu 640 Schweine verwaltet werden.
+	
+FA-B__Fuer den Rinderbauern:
+----------------------------
+	Ein Rind kaufen mit Kaufdatum und Kaufpreis.
+	Ein Rind verkaufen mit Verkaufspreis und Verkaufsdatum.
+	Die tägliche Milchleistung eines Rindes eingeben; für Kühe können bis zu 640 aufeinanderfolgende Tage eingegeben werden.
+	
+FA-C__Fuer den Huehnerbauern:
+-----------------------------
+	Die Anzahl der Huehner in der Huehnerschar tagesaktuell verwalten.
+	Die Anzahl der gelegten und gefunden Huehnereier tagesaktuell verwalten. 
+	
+Feur alle Bauern:
+-----------------
+	Speichern aller seit dem letzten Programmstart getaetigten Aenderungen ("Transaktionen").  
+	Einfache statistische Abfragen.
+
+5. Daten:
+Alle Daten muessen vom Landwirt eingeben werden.
+
+6. Leistungen:
+Das ausfuehrbare Computerprogramme ("FarmAcounting-x.exe") wird als USB-Stick ausgeliefert und muss vom Landwirt auf den Computer
+kopiert werden.
+Eine Installation ist nicht notwendig.
+Beim Kauf von FA-x ist ein einjaehriger Support miteingeschlossen der nur schriftlich (Post od. E-mail) zu kontaktieren ist.
+Die vom Kunden gewuenschten aenderungen muessen schriftlich angefordert werden und müssen im ausmass der bestehenden software
+funktionalitaet liegen.
+jegliche aenderungen die ausserhalb der funktionalitaet liegen sind gesondert zu bezahlen und werden 1/4h verechnet wobei 
+jede angefangene 1/4h verechnet wird(pauschale € 65,00).
+
+Support: blabla GmbH
+         Konkursstr.640
+         1024 KremsBurg
+         insolvenz@konkurs.sicher
+
+7. Benutzeroberflaeche:
+FA-x wird in einer zeichenorientierten Benutzerschnittstelle (Terminal) bedient.
+
+8. Qualitaet:
+Die Software von FA-x wird laufend verbessert und auf unserer homepage fuer kunden zum Download bereitgestellt.
+
+9. Entwicklungsumgebung:
+C++ in der Version "International Standard ISO/IEC 14882:2014(E) Programming Language C++".
+Microsoft Visual Studio 2015
+
+10. Ergänzungen:
+Diese Seite wurde absichtlich leergelassen.
+
+11. Glossar:
+Hardware: Der angreifbare Bestandteil eines Computersystems. 
+Statistik: Die Kunst, einfache Sachverhalte kompliziert zu erklären, sodass sie niemand mehr versteht.
+Software: Der nicht-angreifbare Bestandteil eines Computersystems.
+Transaktion: Eine Aenderung des Tierbestandes, die durch geschaeftliche oder natuerliche Vorgaenge zustanden kommen.
