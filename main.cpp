@@ -16,11 +16,12 @@ int main(int argc, char* argv[])
 	while(auswahl != 0)
 	{
 		cout << endl << endl;
-		cout << "Bitte waehle aus ..." << endl;
-		cout << "0 ... Programm beenden." << endl;
-		cout << "1 ... Datenbank einlesen." << endl;
-		cout << "2 ... Datenbank speichern." << endl;
-		cout << "3 ... Bestand auflisten." << endl;
+		cout << "   ... Bitte waehle aus ..." << endl;
+		cout << "_____________________________" << endl;
+		cout << " 0 ... Programm beenden." << endl;
+		cout << " 1 ... Datenbank einlesen." << endl;
+		cout << " 2 ... Datenbank speichern." << endl;
+		cout << " 3 ... Bestand auflisten." << endl;
 		cout << "11 ... Schwein einstellen." << endl;
 		cout << "12 ... Schwein verkaufen." << endl;
 		cout << "13 ... Schwein loeschen." << endl;
@@ -38,19 +39,19 @@ int main(int argc, char* argv[])
 		{
 			case 1:
 			{
-				cout << "1 ... Datenbank einlesen" << endl;
+				cout << " 1 ... Datenbank einlesen" << endl;
 				erg = einlesenVonPlatte(meineTiere, "FarmAccounting.txt");
 				break;
 			}
 			case 2:
 			{
-				cout << "2 ... Datenbank speichern" << endl;
+				cout << " 2 ... Datenbank speichern" << endl;
 				erg = sichernAufPlatte(meineTiere, "FarmAccounting.txt");
 				break;
 			}
 		case 3:
 			{
-				cout << "3 ... Bestand auflisten" << endl;
+				cout << " 3 ... Bestand auflisten" << endl;
 				cout << "Anzahl der Tiere: " << meineTiere.size() << endl;
 				for_each(meineTiere.begin(),meineTiere.end(),&Tier::Print);
 				break;
@@ -82,10 +83,10 @@ int main(int argc, char* argv[])
 
 		if(auswahl != 0 && erg == -1)
 		{
-			cout << "Transaktion wurde nicht durchgefuehrt wegen fehlerhafter Eingabe.\nVersuche es nocheinmal ...";
+			cout << " Transaktion wurde nicht durchgefuehrt wegen fehlerhafter Eingabe.\nVersuche es nocheinmal ...";
 		}
 	}
-	cout << "Das Programm wird beendet!" << endl;
+	cout << " Das Programm wird beendet!" << endl;
 	return 0;
 }
 
