@@ -27,7 +27,11 @@ int main(int argc, char* argv[])
 		cout << "13 ... Schwein loeschen." << endl;
 		cout << endl;
 		cout << endl;
-		cout << endl; //blabla
+		//cout << endl;
+		cout << endl;
+		//cout << endl;
+		cout << endl;
+		cout << endl;
 		/*
 		cout << "21 ... Kuh einstellen." << endl;
 		cout << "22 ... Kuh verkaufen." << endl;
