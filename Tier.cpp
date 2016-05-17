@@ -89,7 +89,7 @@ int Schwein::schweinEinstellen(vector<Tier*>& meineTiere)
 int Schwein::schweinVerkaufen(vector<Tier*>& meineTiere)
 {
 	float kaufPreis, verkaufPreis;
-	cout << "Schwein verkaufen" << endl;
+	cout << "\nSchwein verkaufen" << endl;
 	cout << "Name?" << endl;
 	cin >> this->name;
 
